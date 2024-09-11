@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:  #a6bbff
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            padding: 18px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 30px;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .icon {
+            font-size: 50px;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .icon span {
+            font-size: 12px;
+        
+        }
+        .github { color: #333; }
+        .telegram { color: #0088cc; }
+        .gmail { color: #bd2714; }
+        .book { color: #f7450f; }
+    </style>
+</head>
+<body>
+    <header>
+        Моя веб-страница
+    </header>
+    <main>
+        <div class="icon-grid">
+            
+            <a href="https://github.com/MarkStroykow" class="icon github"><i class="fab fa-github"></i><span>GitHub</span></a>
+            <a href="https://t.me/eytvmhjbv" class="icon telegram"><i class="fab fa-telegram-plane"></i><span>Telegram</span></a>
+            <a href="MarkStroykow@gmail.com" class="icon gmail"><i class="fas fa-envelope"></i><span>Email</span></a>
+            <a href="/details" class="icon book"><i class="fas fa-book"></i><span>RoadMap</span></a>
+        </div>
+    </main>
+</body>
+</html>

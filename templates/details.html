@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:  #a6bbff
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            padding: 18px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 30px;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .icon {
+            font-size: 50px;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .icon span {
+            font-size: 12px;
+        }
+        .docker { color: #0db7ed; }
+        .docker-compose { color: #0088cc; }
+        .kubernetes { color: #326ce5; }
+        .devops { color: #ffcc00; }
+        .linux { color: #000000; }
+        .git { color: #f34f29; }
+        .golang { color: #00add8; }
+        .network { color: #9c27b0; }
+        .home { color: #f1f370; }
+    </style>
+</head>
+<body>
+    <header>
+        Детальная страница
+    </header>
+    <main>
+        <div class="icon-grid">
+            <a href="https://example.com" class="icon docker"><i class="fab fa-docker"></i><span>Docker</span></a>
+            <a href="https://example.com" class="icon docker-compose"><i class="fas fa-ship"></i><span>Docker-compose</span></a>
+            <a href="https://example.com" class="icon kubernetes"><i class="fas fa-anchor"></i><span>Kubernetes</span></a>
+            <a href="https://example.com" class="icon devops"><i class="fas fa-cogs"></i><span>DevOps</span></a>
+            <a href="https://example.com" class="icon linux"><i class="fab fa-linux"></i><span>Linux</span></a>
+            <a href="https://example.com" class="icon git"><i class="fab fa-git-alt"></i><span>Git</span></a>
+            <a href="https://example.com" class="icon golang"><i class="fas fa-code"></i><span>Go/Py</span></a>
+            <a href="https://example.com" class="icon network"><i class="fas fa-network-wired"></i><span>Сети</span></a>
+            <a href=/ class="icon home"><i class="fas fa-home"></i><span>Home</span></a>
+        </div>
+    </main>
+</body>
+</html>
